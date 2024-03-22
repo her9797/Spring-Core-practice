@@ -1,4 +1,4 @@
-package com.ohgiraffers.practice03.anootionconfig;
+package com.ohgiraffers.chap01.practice03.anootionconfig;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

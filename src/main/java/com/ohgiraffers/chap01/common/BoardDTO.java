@@ -1,4 +1,4 @@
-package com.ohgiraffers.common;
+package com.ohgiraffers.chap01.common;
 
 import lombok.*;
 

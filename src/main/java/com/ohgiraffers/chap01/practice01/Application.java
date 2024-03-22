@@ -1,6 +1,6 @@
-package com.ohgiraffers.practice01;
+package com.ohgiraffers.chap01.practice01;
 
-import com.ohgiraffers.common.BoardDTO;
+import com.ohgiraffers.chap01.common.BoardDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
@@ -9,7 +9,7 @@ public class Application {
     public static void main(String[] args) {
 
         ApplicationContext context
-                = new GenericXmlApplicationContext("practice01/xmlconfig/spring-context.xml");
+                = new GenericXmlApplicationContext("chap01/practice01/xmlconfig/spring-context.xml");
 
         BoardDTO boardDTO = context.getBean("board", BoardDTO.class);
 

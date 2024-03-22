@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="board" class="com.ohgiraffers.chap02.common.BoardDTO">
+        <constructor-arg name="id" value="1" />
+        <constructor-arg name="title" value="제목1" />
+        <constructor-arg name="content"><value>내용1</value></constructor-arg>
+        <constructor-arg name="writer" ref="member"/>
+    </bean>
+
+    <bean id="member" class="com.ohgiraffers.chap02.common.MemberDTO">
+        <property name="id" value="1" />
+        <property name="nickName" value="김닉네임" />
+    </bean>
+</beans>

@@ -1,6 +1,6 @@
-package com.ohgiraffers.practice02.javaconfig;
+package com.ohgiraffers.chap01.practice02.javaconfig;
 
-import com.ohgiraffers.common.BoardDTO;
+import com.ohgiraffers.chap01.common.BoardDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

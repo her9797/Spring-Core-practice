@@ -1,6 +1,6 @@
-package com.ohgiraffers.practice03.anootionconfig;
+package com.ohgiraffers.chap01.practice03.anootionconfig;
 
-import com.ohgiraffers.common.BoardDTO;
+import com.ohgiraffers.chap01.common.BoardDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
